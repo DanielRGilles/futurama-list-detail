@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import CharacterList from '../../components/List/CharacterList';
-import { getAllCharacters } from '../../services/futuramaApi';
+import { getPokemon } from '../../services/pokemonApi';
 
 export default function List() {
     const [ characters, setCharacters ] = useState([])
     const [ loading, setLoading ] = useState(true);
-
+    const [ dir, setDir ] = useState('asc')
+    const [ sortVar, setSortVar ] = useState('pokemon')
     useEffect(() => {
         setLoading(true);
-        getAllCharacters()
+        getPokemon(1, 25, sortVar, dir)
           .then((res) => {
             setCharacters(res.data);
           })
@@ -19,7 +20,7 @@ export default function List() {
         <>
             {loading ? '....Loading' :
             <CharacterList characters={characters} />}
-            {console.log(characters)}
+           
         </>
     )
 }

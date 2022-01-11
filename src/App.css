@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 :root {
     width: 100vw;
+    background-color: rgb(244, 247, 90);
+}
+body {
+    width: 100vw;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+      
 }
