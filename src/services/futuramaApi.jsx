@@ -1,3 +1,4 @@
+import { smush } from "../utils/utils";
 export const getAllCharacters = async () => {
     try {
         const res = await fetch('https://futuramaapi.herokuapp.com/api/v2/characters');
@@ -5,7 +6,7 @@ export const getAllCharacters = async () => {
 
         return {
            data: characters.map((character) => ({
-                id: character.Name,
+                id: smush(character.Name),
                 name: character.Name,
                 image: character.PicUrl,
                 species: character.Species,
@@ -19,3 +20,5 @@ export const getAllCharacters = async () => {
         return [];
     }
 }
+
+

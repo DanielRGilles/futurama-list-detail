@@ -19,6 +19,7 @@ export default function List() {
         <>
             {loading ? '....Loading' :
             <CharacterList characters={characters} />}
+            {console.log(characters)}
         </>
     )
 }

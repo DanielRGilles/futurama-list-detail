@@ -1,9 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
         <>
-          <h1>Futurama Characters</h1>  
+          <h1>Futurama Characters</h1> 
+          <ul>
+          <li><Link to='/characters'>Characters</Link> </li>
+          <li><Link to='/'>Home</Link> </li>
+          </ul>
         </>
     )
 }
