@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.character {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 15px;
+    max-width: 50%;
+}
+.character > img {
+    width: auto;
+    height: fit-content;
+    min-height: 100px;
+
+}
