@@ -1,0 +1,17 @@
+.ball {
+    position: fixed;
+    top: 50%;
+    margin-left: 40%;
+    border-radius: 50%;
+    animation: bounce 400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-90px);} 
+    60% {transform: translateY(-150px);} 
+      
+ } 

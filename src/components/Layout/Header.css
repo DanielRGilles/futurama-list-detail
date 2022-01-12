@@ -6,9 +6,13 @@
     box-sizing: border-box;
     background-color: crimson;
     padding: 5px;
-    border: 2px dashed black
+    border: 2px dashed black;
+    min-height: 100px;
     
 }
 .links {
     font-size: larger;
+    padding: 15px;
+    margin-bottom: 15px;
+    line-height: 90%;
 }

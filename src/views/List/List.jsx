@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CharacterList from '../../components/List/CharacterList';
+import Loading from '../../components/Loading/Loading';
 import { getPokemon } from '../../services/pokemonApi';
 
 export default function List() {
@@ -18,7 +19,7 @@ export default function List() {
 
     return (
         <>
-            {loading ? '....Loading' :
+            {loading ? <Loading/> :
             <CharacterList characters={characters} />}
            
         </>

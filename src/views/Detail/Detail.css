@@ -5,66 +5,18 @@
 .container {
    display: flex;
    flex-direction: column;
-   border: 2px dashed gray;
+   border: 2px ridge gray;
    width: 100%;
-   height: 75%;
-
+   height: fit-content;
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 15px;
 }
-.grass {
-    background-color: lightgreen;
-  }
-  .fire {
-    background-color: lightsalmon;
-  }
-  .water {
-    background-color: lightblue;
-  }
-  .bug {
-    background-color: rgb(247, 247, 37);
-  }
-  .normal {
-    background-color: lightgrey;
-  }
-  .steel {
-    background-color: slategray;
-  }
-  .psychic {
-    background-color: rgb(124, 83, 165);
-  }
-  .dragon {
-    background-color: rgba(19, 16, 16, 0.705);
-    color: coral;
-  }
-  .dark {
-    background-color: gold;
-  }
-  .ground {
-    background-color: brown;
-  }
-  .ice {
-    background-color: #D6ECEF
-  }
-  .fighting {
-    background-color: wheat;
-  }
-  .fairy {
-    background-color: pink;
-  }
-  .ghost {
-    background-color: lightslategray;
-  }
-  .flying {
-    background-color: coral;
-  }
-  .poison {
-    background-color: darkgreen;
-  }
-  .rock {
-    background-color: rgb(87, 87, 26);
-  }
-  .electric {
-    background-color: skyblue;
-    font-size: .8rem;
-  
-  }
+.container > h3 {
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    padding: 3px;
+}
+
+
   

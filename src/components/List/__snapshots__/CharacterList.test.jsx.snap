@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component test renders the top nav header 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="grass character"
+    >
+      <img
+        alt="abomasnow"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png"
+      />
+      <a
+        href="/characters/5ff4fb7cd89993a89cc6563f"
+      >
+        <h1>
+          abomasnow
+        </h1>
+      </a>
+      <div>
+        Type: 
+        grass
+      </div>
+    </div>
+    <div
+      class="grass character"
+    >
+      <img
+        alt="abomasnow-mega"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/460_f2.png"
+      />
+      <a
+        href="/characters/5ff4fb7cd89993a89cc65641"
+      >
+        <h1>
+          abomasnow-mega
+        </h1>
+      </a>
+      <div>
+        Type: 
+        grass
+      </div>
+    </div>
+    <div
+      class="psychic character"
+    >
+      <img
+        alt="abra"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+      />
+      <a
+        href="/characters/5ff4fb7cd89993a89cc65488"
+      >
+        <h1>
+          abra
+        </h1>
+      </a>
+      <div>
+        Type: 
+        psychic
+      </div>
+    </div>
+    <div
+      class="dark character"
+    >
+      <img
+        alt="absol"
+        src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png"
+      />
+      <a
+        href="/characters/5ff4fb7cd89993a89cc655cb"
+      >
+        <h1>
+          absol
+        </h1>
+      </a>
+      <div>
+        Type: 
+        dark
+      </div>
+    </div>
+  </div>
+</div>
+`;
