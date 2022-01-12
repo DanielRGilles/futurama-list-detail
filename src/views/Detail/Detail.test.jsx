@@ -53,7 +53,7 @@ describe('Character detail test', () => {
         server.close();
     });
 
-    it('renders a specific character', async () => {
+    it('renders a specific pokemon by id', async () => {
         render(
             <MemoryRouter initialEntries={['/characters/5ff4fb7cd89993a89cc6563f']}>
                 <App/>
@@ -62,17 +62,13 @@ describe('Character detail test', () => {
         
         await screen.findByText('abomasnow')
     })
-    it('renders the app', async () => {
+    it('renders the app with a specifice pokemon expected', async () => {
         const screen = await render(
             <MemoryRouter initialEntries={['/characters/5ff4fb7cd89993a89cc6563f']}>
                 <App/>
             </MemoryRouter>
         );
-        
-        
        expect(screen).toMatchSnapshot
-       
-        
     })
 
 })

@@ -12,7 +12,7 @@ export default function CharacterList({ characters }) {
                <div>Type: {type}</div>
               
            </div>)} 
-           {console.log([characters])}
+           
         </div>
     )
 }

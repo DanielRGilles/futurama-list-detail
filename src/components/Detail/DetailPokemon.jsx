@@ -16,7 +16,6 @@ export default function DetailPokemon({pokemon}) {
                 <p>Color: {color}</p>
 
             </section>
-            {console.log(pokemon)}
         </>
     )
 }
