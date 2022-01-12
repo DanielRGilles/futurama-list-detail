@@ -1,0 +1,22 @@
+.detail {
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   border: 2px ridge gray;
+   width: 100%;
+   height: fit-content;
+   padding: 15px;
+   margin-top: 10px;
+   border-radius: 15px;
+}
+.container > h3 {
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    padding: 3px;
+}
+
+
+  

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root {
+    width: 100vw;
+    background-color: rgb(244, 247, 90);
+}
+body {
+    width: 100vw;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+      
+}
+.grass {
+    background-color: lightgreen;
+  }
+  .fire {
+    background-color: lightsalmon;
+  }
+  .water {
+    background-color: lightblue;
+  }
+  .bug {
+    background-color: rgb(247, 247, 37);
+  }
+  .normal {
+    background-color: lightgrey;
+  }
+  .steel {
+    background-color: slategray;
+  }
+  .psychic {
+    background-color: rgb(124, 83, 165);
+  }
+  .dragon {
+    background-color: rgba(19, 16, 16, 0.705);
+    color: coral;
+  }
+  .dark {
+    background-color: gold;
+  }
+  .ground {
+    background-color: brown;
+  }
+  .ice {
+    background-color: #D6ECEF
+  }
+  .fighting {
+    background-color: wheat;
+  }
+  .fairy {
+    background-color: pink;
+  }
+  .ghost {
+    background-color: lightslategray;
+  }
+  .flying {
+    background-color: coral;
+  }
+  .poison {
+    background-color: darkgreen;
+  }
+  .rock {
+    background-color: rgb(87, 87, 26);
+  }
+  .electric {
+    background-color: skyblue;
+    font-size: .8rem;
+  
+  }
+  .loading {
+    position: fixed;
+    top: 50%;
+    margin-left: 40%;
+    border-radius: 50%;
+    animation: rotation 400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
